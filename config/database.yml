@@ -23,6 +23,6 @@ test:
 production:
   <<: *default
   adapter: postgresql
-#   database: tacogram_final_production
-#   username: tacogram_final
-#   password: <%= ENV["TACOGRAM_FINAL_DATABASE_PASSWORD"] %>
+  database: tacogramta_production #COMMENTED THESE ALL IN AND THEN MADE THEM MATCH THE REPO NAME /// INDENTATION MATTERS FOR 24-28
+  username: tacogramta
+  password: <%= ENV["TACOGRAMTA_DATABASE_PASSWORD"] %>
